@@ -69,3 +69,5 @@ nnoremap <leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 " Follow Rust code style rules
 au Filetype rust source ~/.config/nvim/scripts/spacetab.vim
 au Filetype rust set colorcolumn=100
+
+set expandtab
